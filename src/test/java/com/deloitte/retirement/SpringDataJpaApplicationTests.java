@@ -1,4 +1,4 @@
-package com.deloitte.retirement.spring.data.jpa;
+package com.deloitte.retirement;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

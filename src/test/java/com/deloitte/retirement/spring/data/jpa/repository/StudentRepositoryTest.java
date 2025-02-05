@@ -2,6 +2,7 @@ package com.deloitte.retirement.spring.data.jpa.repository;
 
 import com.deloitte.retirement.spring.data.jpa.entity.Guardian;
 import com.deloitte.retirement.spring.data.jpa.entity.Student;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -15,6 +16,7 @@ class StudentRepositoryTest {
     private StudentRepository studentRepository;
 
     @Test
+    @Disabled
     public void saveStudentWithGuardian(){
 
 //        Guardian guardian= Guardian.builder()

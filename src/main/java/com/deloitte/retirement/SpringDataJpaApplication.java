@@ -1,4 +1,4 @@
-package com.deloitte.retirement.spring.data.jpa;
+package com.deloitte.retirement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
